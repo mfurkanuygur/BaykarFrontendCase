@@ -12,7 +12,7 @@ const Section7Shoes = () => {
                         <h1 className="text-8xl max-md:text-5xl text-white font-extrabold">11,658,467</h1>
                         <h2 className="text-6xl max-md:text-3xl text-white font-extrabold">Shoes Collected</h2>
                     </div>
-                    <div className="absolute z-20 left-[-300px] max-md:left-[30px] top-[-30px] ">
+                    <div className="absolute z-20 left-[-300px] max-lg:left-[30px] top-[-30px] ">
                         <img src={coolShoes} alt="" />
                     </div>
                     {/* <div className="absolute z-10 max-md:overflow-x-hidden">

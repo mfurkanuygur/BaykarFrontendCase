@@ -9,11 +9,11 @@ const Navbar = () => {
     }
 
     return (
-        <header className="myMenu relative z-10 px-20 py-6 max-md:px-4">
-            <nav >
+        <header className=" relative z-10 ">
+            <nav className="container mx-auto px-20 py-6 max-md:px-4" >
                 <div className="flex justify-between items-center">
                     <a className="text-[32px] text-amber-900 font-bold " href="#">Collers</a>
-                    <ul className="flex items-center gap-4 max-md:hidden">
+                    <ul className="flex items-center gap-4 max-lg:hidden">
                         {navLinks.map((item) => (
                             <li className="py-3 px-2 text-amber-900 font-medium text-base leading-6" key={item.label}>
                                 <a href={item.href}>{item.label}</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
                         ))}
                         <button className="sign-up-button ">Sign up now</button>
                     </ul>
-                    <div className='hidden cursor-pointer max-md:block '>
+                    <div className='hidden cursor-pointer max-lg:block '>
                         <img src={hamburger} alt='hamburger icon' width={25} height={25} onClick={openMenu} />
 
                     </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 {isOpen ? (
                     <div className="flex flex-col justify-center items-center text-center">
-                        <ul className="hidden  max-md:block ">
+                        <ul className="hidden  max-lg:block ">
                             {navLinks.map((item) => (
                                 <li className="py-3 px-2 text-amber-900 font-medium text-base leading-6" key={item.label}>
                                     <a href={item.href}>{item.label}</a>

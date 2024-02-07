@@ -6,7 +6,8 @@ import World from "../assets/images/world.png"
 const Footer = () => {
   return (
     <footer className=" px-20 max-md:px-4 bg-[#0f172a] text-white max-md:text-center ">
-        <div className="grid grid-cols-4 max-md:grid-cols-1 max-md:gap-12 py-12">
+      <div className="flex justify-center items-center">
+        <div className="container grid grid-cols-4 max-md:grid-cols-1 max-md:gap-12 py-12">
           <ul className="flex flex-col gap-2 justify-between ">
             <h6 className="font-semibold my-2">Products</h6>
             {FooterLinks.products.map(item => (
@@ -45,21 +46,22 @@ const Footer = () => {
             </div>
           </div>
         </div>
-  
-        <div className="flex justify-between items-center py-6 border-t-2 border-[#334155] max-md:flex-col max-md:py-12 max-md:gap-6 ">
-          <p>Collers @ 2023. All rights reserved.</p>
-          <ul className="flex gap-8">
-            {FooterLinks.footerBottomNav.map(item => (
-              <div className="my-2 font-normal cursor-pointer flex max-md:justify-center" key={item}>
-                <li>{item}</li>
-              </div>
-            ))}
-            <div className="flex items-center gap-3">
-              <img src={World} alt="world" />
-              <p>EN</p>
+      </div>
+
+      <div className=" flex justify-between items-center py-6 border-t-2 border-[#334155] max-md:flex-col max-md:py-12 max-md:gap-6 ">
+        <p>Collers @ 2023. All rights reserved.</p>
+        <ul className="flex gap-8">
+          {FooterLinks.footerBottomNav.map(item => (
+            <div className="my-2 font-normal cursor-pointer flex max-md:justify-center" key={item}>
+              <li>{item}</li>
             </div>
-          </ul>
-        </div>
+          ))}
+          <div className="flex items-center gap-3">
+            <img src={World} alt="world" />
+            <p>EN</p>
+          </div>
+        </ul>
+      </div>
     </footer>
   )
 }

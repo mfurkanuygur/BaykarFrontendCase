@@ -15,7 +15,7 @@ import Section7Shoes from './components/Section7Shoes'
 function App() {
 
   return (
-    <main className=' mx-auto'>
+    <main className='  mx-auto'>
       <div className="relative overflow-hidden bg-gradient-to-t from-[#fffbeb] via-white to-white max-md:bg-gradient-to-t max-md:from-white max-md:to-white">
         <Navbar />
         <Section1CollectibleSneakers />
