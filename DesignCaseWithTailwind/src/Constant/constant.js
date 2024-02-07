@@ -23,6 +23,15 @@ import user2 from "../assets/images/user2.png"
 import user3 from "../assets/images/user3.png"
 import user4 from "../assets/images/user4.png"
 import user5 from "../assets/images/user5.png"
+
+import search from "../assets/images/search.png"
+import shield from "../assets/images/shield.png"
+import rocket from "../assets/images/rocket.png"
+import monitor from "../assets/images/monitor.png"
+import radar from "../assets/images/radar.png"
+import settings from "../assets/images/settings.png"
+
+
 export const navLinks = [
     { href: "Products", label: "Products" },
     { href: "Solutions", label: "Solutions" },
@@ -92,7 +101,8 @@ export const JoinUs = [
 
 export const Slides = [
     {
-        slideLogo: kontrast,
+        id: 1,
+        slideLogo: waves,
         title: "kontrasttr",
         text: "Amet morbi enim sodales quis dui, in habitant pharetra. Risus id fringilla sed adipiscing volutpat sit varius turpis. Sed pretium se.",
         userImg: user1,
@@ -100,6 +110,7 @@ export const Slides = [
         userJob: "Product Designer"
     },
     {
+        id: 2,
         slideLogo: zoomer,
         title: "Zoomerr",
         text: "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
@@ -108,6 +119,7 @@ export const Slides = [
         userJob: "Team Lead"
     },
     {
+        id: 3,
         slideLogo: shells,
         title: "SHELLS",
         text: "Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.",
@@ -116,6 +128,7 @@ export const Slides = [
         userJob: "Co-founder"
     },
     {
+        id: 4,
         slideLogo: artvenue,
         title: "ArtVenue",
         text: "A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
@@ -124,6 +137,7 @@ export const Slides = [
         userJob: "Manager"
     },
     {
+        id: 5,
         slideLogo: waves,
         title: "WAVES",
         text: "Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.",
@@ -133,6 +147,39 @@ export const Slides = [
     }
 
 ];
+
+export const CollectionTabs = [
+    {
+        id: 1,
+        tabLogo: search,
+        title: "Bibendum tellus",
+    },
+    {
+        id: 2,
+        tabLogo: shield,
+        title: "Cras eget",
+    },
+    {
+        id: 3,
+        tabLogo: rocket,
+        title: "Dolor pharetra",
+    },
+    {
+        id: 4,
+        tabLogo: monitor,
+        title: "Amet, fringilla",
+    },
+    {
+        id: 5,
+        tabLogo: radar,
+        title: "Amet nibh",
+    },
+    {
+        id: 6,
+        tabLogo: settings,
+        title: "Sed velit",
+    }
+]
 export const FooterLinks = {
     products: ["Pricing", "Overview", "Browse", "Accessibilty", "Five"],
     solutions: ["Brainstorming", "Ideation", "Wireframing", "Research", "Design"],

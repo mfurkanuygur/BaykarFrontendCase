@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -6,10 +7,12 @@ export default {
   ],
   theme: {
     extend: {
-     
-
+      backgroundImage: {
+        "worldMap": "url('./src/assets/images/web-chart.png')",
+        "worldPoints": "url('./src/assets/images/ellipses.png')"
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
 
+  }
 }
