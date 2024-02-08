@@ -144,6 +144,51 @@ export const Slides = [
         userImg: user5,
         userName: "Charolette Hanlin",
         userJob: "CEO"
+    },
+    {
+        id: 6,
+        slideLogo: waves,
+        title: "kontrasttr",
+        text: "Amet morbi enim sodales quis dui, in habitant pharetra. Risus id fringilla sed adipiscing volutpat sit varius turpis. Sed pretium se.",
+        userImg: user1,
+        userName: "Ralph Edwards",
+        userJob: "Product Designer"
+    },
+    {
+        id: 7,
+        slideLogo: zoomer,
+        title: "Zoomerr",
+        text: "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
+        userImg: user2,
+        userName: "Hellen Jummy",
+        userJob: "Team Lead"
+    },
+    {
+        id: 8,
+        slideLogo: shells,
+        title: "SHELLS",
+        text: "Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.",
+        userImg: user3,
+        userName: "Hellena John",
+        userJob: "Co-founder"
+    },
+    {
+        id: 9,
+        slideLogo: artvenue,
+        title: "ArtVenue",
+        text: "A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
+        userImg: user4,
+        userName: "David Oshodi",
+        userJob: "Manager"
+    },
+    {
+        id: 10,
+        slideLogo: waves,
+        title: "WAVES",
+        text: "Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.",
+        userImg: user5,
+        userName: "Charolette Hanlin",
+        userJob: "CEO"
     }
 
 ];

@@ -8,7 +8,7 @@ import webTripleImage from "../assets/images/web-triple-image.png"
 const Section6Grow = () => {
     return (
         <section className=" flex justify-center items-center   overflow-x-hidden">
-            <div className="container flex flex-col justify-center items-center gap-20 px-20 max-md:px-4 pt-12 pb-24">
+            <div className="container flex flex-col justify-center items-center gap-20 px-20 max-md:px-4 py-24 max-md:py-12">
                 <div className="flex  flex-col text-left max-md:text-center  gap-8">
                     <h1 className="text-6xl max-md:text-3xl font-bold">Grow your collection</h1>
                     <p className='text-lg'>Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit rhoncus. Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.</p>
