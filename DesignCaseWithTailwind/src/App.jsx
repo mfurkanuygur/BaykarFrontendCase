@@ -11,6 +11,7 @@ import bigYellow from "./assets/images/big-yellow.png"
 import bgWaves from "./assets/images/bg-waves.png"
 import Section6Grow from './components/Section6Grow'
 import Section7Shoes from './components/Section7Shoes'
+import Deneme from './components/Deneme'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Section3BestoftheBest />
       <div className='bg-gradient-to-t from-[#fffefc] via-[#fffdf8] to-[#fffcf2]'>
         <Section4WhyJoinUs />
+        {/* <Deneme/> */}
         <Section5Slider />
         <div className='relative z-10 max-md:overflow-x-hidden'>
           <Section6Grow className="relative z-20" />

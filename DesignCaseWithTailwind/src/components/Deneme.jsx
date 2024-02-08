@@ -8,20 +8,10 @@ import { Slides } from '../Constant/constant';
 const Deneme = () => {
   const swiperRef = useRef(null);
 
-  const slideNext = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slideNext();
-    }
-  };
-
-  const slidePrev = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slidePrev();
-    }
-  };
+  
 
   return (
-    <>
+    <div className='bg-bigYellow bg-local bg-no-repeat bg-center'>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
@@ -40,7 +30,7 @@ const Deneme = () => {
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView:3,
+            slidesPerView:5,
             spaceBetween: 50,
           },
         }}
@@ -58,7 +48,7 @@ const Deneme = () => {
                     <img src={slide.slideLogo} alt={slide.title} />
                     <h3>{slide.title}</h3>
                   </div>
-                  <p className="text-2xl">{slide.text}</p>
+                  <p className="text-2xl ">{slide.text}</p>
                   <div className="flex items-center gap-4 pt-4">
                     <img src={slide.userImg} alt={slide.userName} />
                     <div>
@@ -71,11 +61,8 @@ const Deneme = () => {
             </SwiperSlide>
           ))}
       </Swiper>
-      <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button onClick={slidePrev}>Previous</button>
-        <button onClick={slideNext}>Next</button>
-      </div>
-    </>
+     
+    </div>
   )
 }
 
