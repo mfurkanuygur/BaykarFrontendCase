@@ -1,0 +1,19 @@
+$primary: #78350f;
+$secondary: #0f172a;
+
+$list-group-color: white;
+$list-group-bg: $secondary;
+$list-group-border-color: none;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  12: 12px,
+  80: 80px,
+  32: 32px,
+);

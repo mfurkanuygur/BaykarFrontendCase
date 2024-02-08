@@ -1,0 +1,31 @@
+@mixin sign-up-btn($border-color) {
+  padding: 12px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid $border-color;
+  background-color: transparent;
+  @media screen and (max-width: 992px) {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid $border-color;
+    background-color: transparent;
+  }
+}
+@mixin font-specs(
+  $font-color,
+  $font-size,
+  $font-style,
+  $font-weight,
+  $line-height
+) {
+  color: $font-color;
+  font-size: $font-size;
+  font-style: $font-style;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}

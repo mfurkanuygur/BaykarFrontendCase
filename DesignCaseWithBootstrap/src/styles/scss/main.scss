@@ -1,0 +1,11 @@
+@import "./override";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./custom";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import "./ComponentStyles/Navbar.scss";
+@import "./ComponentStyles/Section1style.scss";
+
+* {
+  font-family: "Roboto", sans-serif;
+}
