@@ -24,7 +24,7 @@ function App() {
         </div>
       </div>
       <Section3BestoftheBest />
-      <div className='bg-gradient-to-t from-[#fffefc] via-[#fffdf8] to-[#fffcf2]'>
+      <div className='bg-gradient-to-t from-[#fffefc] via-[#fffdf8] to-[#fffcf2] max-md:bg-gradient-to-t max-md:from-white max-md:to-white'>
         <Section4WhyJoinUs />
         <Section5Slider />
         <div className='relative z-10 max-md:overflow-x-hidden'>
