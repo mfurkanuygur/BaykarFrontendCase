@@ -7,7 +7,7 @@ import joinVideoDecoration from '../assets/images/join-video-decoration.png'
 const Section4 = () => {
     return (
         <section className="px-3 pt-3 pb-56 px-lg-80 py-lg-160">
-            <div className="container-lg py-32 px-3 p-lg-80 d-flex flex-col flex-lg-row border border-2 rounded-5 gap-32 gap-lg-80 bg-white z-0 shadow ">
+            <div className="container-lg py-32 px-3 p-lg-80 d-flex flex-col flex-lg-row   rounded-5 gap-32 gap-lg-80 bg-white z-0 shadow ">
                 <div className="row d-flex align-items-center justify-content-center gap-32 gap-md-0">
                     <div className="col-12 col-lg-6 d-flex flex-column  ">
                         <h1 className="text-center text-lg-start fw-bold fs-56" >Why join us</h1>

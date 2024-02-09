@@ -2,26 +2,27 @@ import { ScrollingCarousel } from '@trendyol-js/react-carousel';
 import { CollectionTabs } from '../Constant/constant';
 import rightArrow from "../assets/images/rightArrow.png"
 import tripleImage from "../assets/images/triple-image.png"
-import bgWaves from "../assets/images/bg-waves.png"
 import webTripleImage from "../assets/images/web-triple-image.png"
+import bgWaves from "../assets/images/bg-waves.png"
+
 const Section6 = () => {
     return (
-        <section className="position-relative z-1">
+        <section className="position-relative z-1 overflow-x-hidden">
             <div className=" container-lg d-flex flex-column justify-content-center align-content-center pt-5 pt-lg-80  pb-96 pb-lg-128 gap-32  ">
                 <div className="position-relative z-1 d-flex flex-column gap-32">
                     <h1 className="text-56 text-center text-lg-start fw-bolder">Grow your collection</h1>
                     <p className="text-center text-lg-start">Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit rhoncus.
                         Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.</p>
                 </div>
-                <div className="position-relative z-1 row d-flex justify-content-between w-100 mx-auto  ">
+                <div className="position-relative z-1 row d-flex justify-content-between   ">
                     <div className='col-12 col-lg-3 p-0 m-0 '>
-                        <ul className='d-none d-lg-flex flex-lg-column  p-0 gap-3'>
+                        <ul className='d-none d-lg-flex flex-lg-column p-0 gap-3'>
                             {
                                 CollectionTabs.slice(0, 1).map(item => (
-                                    <li key={item.id} className=' d-flex align-items-center  gap-2  p-3 rounded-2 w-100 bg-white shadow-lg'>
+                                    <li key={item.id} className=' d-flex align-items-center  w-75 gap-2  p-3 rounded-2 border shadow-sm'>
                                         <div> <img src={item.tabLogo} alt={item.title} /></div>
                                         <p className='m-0'>{item.title}</p>
-                                        <div className=''><img src={rightArrow} alt="" /></div>
+                                        <div className='ms-4'><img src={rightArrow} alt="" /></div>
                                     </li>
                                 ))
                             }
@@ -34,7 +35,7 @@ const Section6 = () => {
                                 ))
                             }
                         </ul>
-                        <ScrollingCarousel className=' gap-56 w-100 '>
+                        <ScrollingCarousel className='gap-56 w-100 '>
                             <div className='pb-4 d-flex d-lg-none align-items-center'>
                                 {
                                     CollectionTabs.slice(0, 1).map(item => (
@@ -61,6 +62,9 @@ const Section6 = () => {
                     </div>
                 </div>
 
+            </div>
+            <div className='position-absolute bottom-0  start-0 z-n1 d-block d-lg-none '>
+                <img className='w-full' src={bgWaves} alt="" />
             </div>
         </section>
     )

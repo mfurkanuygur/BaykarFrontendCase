@@ -8,6 +8,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { useRef } from "react";
 import { Slides } from "../Constant/constant";
+
+
 const Section5 = () => {
     const swiperRef = useRef(null);
 
@@ -79,12 +81,12 @@ const Section5 = () => {
                             {
                                 Slides.map((slide, index) => (
                                     <SwiperSlide key={index}>
-                                        <div className='d-flex flex-column gap-3 p-4 p-lg-32 gap-3 bg-white shadow rounded-3'>
+                                        <div className='d-flex flex-column gap-3 p-4 p-lg-32  bg-white shadow rounded-3'>
                                             <div className='d-flex align-items-center gap-3 text-secondary-emphasis'>
                                                 <img src={slide.slideLogo} alt={slide.title} />
                                                 <h1 className="fs-4 m-0">{slide.title}</h1>
                                             </div>
-                                            <p className='fs-4' style={{ minHeight: "200px" }}>{slide.text}</p>
+                                            <div className="d-flex align-items-center" style={{ minHeight: "230px" }}><p className='fs-4' >{slide.text}</p></div>
                                             <div className=' d-flex align-items-center gap-3'>
                                                 <img src={slide.userImg} alt={slide.userName} />
                                                 <div className='d-flex flex-column '>
@@ -93,7 +95,6 @@ const Section5 = () => {
                                                 </div>
                                             </div>
                                         </div>
-
                                     </SwiperSlide>
                                 ))}
                         </Swiper>
