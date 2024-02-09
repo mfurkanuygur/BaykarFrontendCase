@@ -28,18 +28,18 @@ const Section4WhyJoinUs = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="relative  ">
+                    <div className="relative">
                         <div className="relative z-20 flex flex-col justify-center items-center">
-                            <div className="  border-white rounded-xl">
+                            <div className="border-white rounded-xl">
                                 <img className="relative bottom-[-20px] border-white border-[5px] border-b-0 bg-white rounded-t-xl" src={topBar} alt="" />
                             </div>
-                            <img className=" border-[5px]  border-white rounded-xl  rounded-b-xl" src={video} alt="" />
+                            <img className="border-[5px] border-white rounded-xl rounded-b-xl" src={video} alt="video" />
                         </div>
                         <div className="absolute z-10 top-[-20px] hidden min-[470px]:block">
-                            <img className=" scale-125 lg:scale-[1.4]  ml-4 max-lg:ml-0  " src={joinVideoDecoration} alt="" />
+                            <img className="scale-125 lg:scale-[1.4]  ml-4 max-lg:ml-0  " src={joinVideoDecoration} alt="video-decoration" />
                         </div>
                         <div className="absolute z-10 top-[-20px] hidden max-[470px]:block">
-                            <img className=" scale-125" src={mobileJoinVideoDecoration} alt="" />
+                            <img className="scale-125" src={mobileJoinVideoDecoration} alt="mobile-video-decoration" />
                         </div>
                     </div>
                 </div>
