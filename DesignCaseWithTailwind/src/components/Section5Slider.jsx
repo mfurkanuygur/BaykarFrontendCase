@@ -22,7 +22,7 @@ const Section5Slider = () => {
 
     return (
         <section className="container mx-auto bg-bigYellow bg-local bg-no-repeat bg-[center_bottom_6.5rem] max-md:bg-[center_top_9rem] bg-[length:95%_55%] max-md:bg-[length:100%_50%]">
-            <div className='w-full p-20 max-md:px-4 max-md:py-12 flex flex-col gap-20 max-md:gap-8 overflow-x-hidden'>
+            <div className='w-full p-20 max-md:px-4 flex flex-col gap-20 max-md:gap-8 overflow-x-hidden'>
                 <div className="relative z-20 w-full flex justify-center md:justify-between items-center max-lg:text-center">
                     <h1 className="font-extrabold max-md:font-bold text-[56px] max-md:text-[32px] w-full">Because they love us</h1>
                     <div className="flex gap-6 max-lg:hidden">
@@ -89,6 +89,7 @@ const Section5Slider = () => {
                                             </div>
                                         </div>
                                     </div>
+
                                 </SwiperSlide>
                             ))}
                     </Swiper>
