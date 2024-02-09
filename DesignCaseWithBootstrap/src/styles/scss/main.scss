@@ -3,9 +3,17 @@
 @import "./custom";
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import "./ComponentStyles/Navbar.scss";
+
 @import "./ComponentStyles/Section1style.scss";
+@import "./ComponentStyles/Section2style.scss";
+@import "./ComponentStyles/FooterStyle.scss";
 
 * {
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+    text-decoration: none;
 }

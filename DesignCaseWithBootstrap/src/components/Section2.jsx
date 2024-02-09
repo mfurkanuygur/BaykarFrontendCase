@@ -2,16 +2,18 @@ import { threeRows } from "../Constant/constant"
 
 const Section2 = () => {
   return (
-    <section className="container-lg py-80">
+    <section className="section-two container-lg py-80 d-flex justify-content-center align-items-center">
       <div className="row">
         {threeRows.map(eachRow => (
-          <div key={eachRow.title} className="col-lg-4 ">
+          <div key={eachRow.title} className="col-lg-4 col-md-4 gap-3 ">
             <div className="position-relative">
               <img className="position-relative" src={eachRow.source} alt={eachRow.title} />
-              <img className="position-absolute top-[-15px] left-[-55px]" src={eachRow.bgimage} alt={eachRow.title} />
+              <div className="position-absolute w-100">
+                <img src={eachRow.bgimage} alt={eachRow.title} />
+              </div>
             </div>
-            <h2 className="text-xl font-semibold text-[#0F172A]">{eachRow.title}</h2>
-            <p className="text-lg font-normal pr-4 max-md:pr-0">{eachRow.detail}</p>
+            <h2 className="">{eachRow.title}</h2>
+            <p className="">{eachRow.detail}</p>
           </div>
         ))}
       </div>
