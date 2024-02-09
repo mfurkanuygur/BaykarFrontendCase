@@ -7,23 +7,23 @@ const Footer = () => {
   return (
     <footer className=" px-20 max-md:px-4 bg-[#0f172a] text-white max-md:text-center ">
       <div className="flex justify-center items-center">
-        <div className="container grid grid-cols-4 max-md:grid-cols-1 max-md:gap-12 py-12">
+        <div className="container grid grid-cols-4 max-md:grid-cols-1 gap-12  py-12">
           <ul className="flex flex-col gap-2 justify-between ">
             <h6 className="font-semibold my-2">Products</h6>
             {FooterLinks.products.map(item => (
-              <li className="my-2 font-normal " key={item}><a href="" className="cursor-pointer">{item}</a></li>
+              <li className="my-2 font-normal text-[#e2e8f0]" key={item}><a href="" className="cursor-pointer">{item}</a></li>
             ))}
           </ul>
           <ul className="flex flex-col gap-2 justify-between">
             <h6 className="font-semibold my-2">Solutions</h6>
             {FooterLinks.solutions.map(item => (
-              <li className="my-3 font-normal " key={item}><a href="" className="cursor-pointer">{item}</a></li>
+              <li className="my-3 font-normal text-[#e2e8f0]" key={item}><a href="" className="cursor-pointer">{item}</a></li>
             ))}
           </ul>
           <ul className="flex flex-col gap-2 justify-between">
             <h6 className="font-semibold my-2">Support</h6>
             {FooterLinks.support.map(item => (
-              <li className="my-3 font-normal " key={item}><a href="" className="cursor-pointer">{item}</a></li>
+              <li className="my-3 font-normal text-[#e2e8f0]" key={item}><a href="" className="cursor-pointer">{item}</a></li>
             ))}
           </ul>
           <div className="flex flex-col gap-2 justify-between">
@@ -35,10 +35,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-4">
-              <h6 className="font-semibold my-3 ">Follow Us</h6>
+              <h6 className="font-semibold my-3 text-[#e2e8f0]">Follow Us</h6>
               <div className="flex gap-4  max-md:justify-center">
                 {FooterLinks.followingLinks.map(item => (
-                  <div className="my-2 font-normal cursor-pointer flex max-md:justify-center" key={item}>
+                  <div className="my-2 font-normal cursor-pointer flex max-md:justify-center text-[#e2e8f0]" key={item}>
                     <img src={item} alt="" />
                   </div>
                 ))}
@@ -52,11 +52,11 @@ const Footer = () => {
         <p>Collers @ 2023. All rights reserved.</p>
         <ul className="flex gap-8">
           {FooterLinks.footerBottomNav.map(item => (
-            <div className="my-2 font-normal cursor-pointer flex max-md:justify-center" key={item}>
+            <div className="my-2 font-normal cursor-pointer flex max-md:justify-center text-[#e2e8f0]" key={item}>
               <li>{item}</li>
             </div>
           ))}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 text-[#e2e8f0]">
             <img src={World} alt="world" />
             <p>EN</p>
           </div>
