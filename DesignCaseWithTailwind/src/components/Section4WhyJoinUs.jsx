@@ -9,8 +9,8 @@ import yellowRectangle from "../assets/images/yellow-rectangle.png"
 
 const Section4WhyJoinUs = () => {
     return (
-        <section className=" flex justify-center items-center py-40 px-20 max-md:px-4 overflow-hidden">
-            <div className="container bg-white p-20 max-md:px-4 max-md:py-8 rounded-[30px] max-md:gap-8 drop-shadow-2xl  ">
+        <section className="flex justify-center items-center py-40 px-20 max-md:px-4 max-md:pt-8 max-md:pb-28 overflow-hidden">
+            <div className="container bg-white p-20 max-md:px-4 max-md:py-8 rounded-[30px] max-md:gap-8 drop-shadow-xl  ">
                 {/* box-shadow: 0px 20px 25px -5px #0000001A */}
                 {/* <div className="relative z-0 grid grid-cols-2 max-xl:grid-cols-1 place-items-center  gap-20 max-md:gap-8 "> */}
                 <div className="relative z-0 flex max-lg:flex-col justify-between items-center  gap-20 max-md:gap-8 ">
