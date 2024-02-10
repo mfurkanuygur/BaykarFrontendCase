@@ -12,11 +12,11 @@
 
 ### `npm install`
 
-- Kurulum için "npm install" diyerek gerekli paketleri kurabilirsiniz.
+- Kurulum için "npm install" diyerek gerekli paketleri yükleyebilirsiniz.
 
 ### `npm run dev`
 
-- Daha sonrasında npm run dev diyerek projeleri çalıştırabilirsiniz.
+- Daha sonrasında "npm run dev" diyerek istediğiniz projeyi çalıştırabilirsiniz.
 
 ## Javascript case
 
