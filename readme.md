@@ -2,6 +2,7 @@
 
 ## Css case
 
+- Projeler "React" ile geliştirilmiştir.
 - Verilen figma tasarımı hem "Bootstrap" hem de "Tailwind" kullanılarak responsive bir şekilde kodlanmıştır.
 
 - Mobil tasarımda yer alan menü butonu aktiftir.
@@ -29,3 +30,4 @@
 NOT : Eğer mobile geçince ya da mobil cihazlar arasında geçiş yapıldığında kayma yaşanıyorsa lütfen mobil görünümü kapatıp tekrar açınız.
 
 #
+
