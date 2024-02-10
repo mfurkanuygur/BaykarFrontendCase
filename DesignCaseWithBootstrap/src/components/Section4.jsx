@@ -22,7 +22,7 @@ const Section4 = () => {
                             }
                         </ul>
                         <div className="d-flex justify-content-center justify-content-lg-start">
-                            <button className="border border-2 border-primary rounded-3 py-3 px-32 bg-transparent text-primary fs-4 fw-bold">Sign up now</button>
+                            <button className=" border-2 border-primary rounded-3 py-3 px-32 bg-transparent text-primary fs-4 fw-bold">Sign up now</button>
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 position-relative d-flex justify-content-center ">

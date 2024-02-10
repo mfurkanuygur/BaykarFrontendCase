@@ -6,7 +6,7 @@ import shoppingCard from '../assets/images/shopping-cart.png'
 const Section3 = () => {
     return (
         <section className="bg-secondary overflow-hidden">
-            <div className="position-relative container-lg px-0 py-lg-80 py-5 px-3 bg-secondary text-white">
+            <div className="position-relative container-lg py-lg-80 py-5 px-3 bg-secondary text-white">
                 <div className="  d-flex flex-column gap-lg-80 gap-32">
                     <div className="d-flex align-items-center justify-content-md-center justify-content-lg-between flex-column flex-sm-column  flex-lg-row gap-32 gap-sm-32   ">
                         <h1 className="text-md-center fw-bolder fs-56 ">The best of the best</h1>
