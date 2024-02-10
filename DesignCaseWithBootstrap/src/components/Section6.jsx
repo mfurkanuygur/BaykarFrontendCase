@@ -7,7 +7,7 @@ import bgWaves from "../assets/images/bg-waves.png"
 
 const Section6 = () => {
     return (
-        <section className="position-relative z-1 overflow-x-hidden">
+        <section className="position-relative z-1 overflow-hidden">
             <div className=" container-lg d-flex flex-column justify-content-center align-content-center pt-5 pt-lg-80  pb-96 pb-lg-128 gap-32  ">
                 <div className="position-relative z-1 d-flex flex-column gap-32">
                     <h1 className="text-56 text-center text-lg-start fw-bolder">Grow your collection</h1>
@@ -19,7 +19,7 @@ const Section6 = () => {
                         <ul className='d-none d-lg-flex flex-lg-column p-0 gap-3'>
                             {
                                 CollectionTabs.slice(0, 1).map(item => (
-                                    <li key={item.id} className=' d-flex align-items-center  w-75 gap-2  p-3 rounded-2 border shadow-sm'>
+                                    <li key={item.id} className=' d-flex align-items-center  w-75 gap-2 bg-white p-3 rounded-2 border shadow-sm'>
                                         <div> <img src={item.tabLogo} alt={item.title} /></div>
                                         <p className='m-0'>{item.title}</p>
                                         <div className='ms-4'><img src={rightArrow} alt="" /></div>

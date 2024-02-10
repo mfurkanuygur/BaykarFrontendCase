@@ -2,8 +2,6 @@ import { navLinks } from "../Constant/constant"
 import hamburger from "../assets/images/hamburger.png"
 
 const Navbar = () => {
-
-
     return (
         <header className="container-lg ">
             <nav className="navbar navbar-expand-lg py-3 py-lg-2">
@@ -22,7 +20,7 @@ const Navbar = () => {
                         }
                         <li className="nav-item">
                             <a className="nav-link " href="#">
-                                <button className="border border-2 border-primary rounded-3 py-2 px-4 bg-transparent text-primary fs-6 fw-bold">
+                                <button className="border-2 border-primary rounded-3 py-2 px-4 bg-transparent text-primary fs-6 fw-bold">
                                     Sign up now
                                 </button>
                             </a>

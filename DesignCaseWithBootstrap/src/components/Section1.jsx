@@ -20,7 +20,7 @@ const Section1 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-5 d-flex justify-content-center align-items-center ">
+                <div className="col-lg-5 d-flex justify-content-center align-items-center mb-lg-4">
                     <img className="img-fluid" src={mainShoe} alt="" />
 
                 </div>
