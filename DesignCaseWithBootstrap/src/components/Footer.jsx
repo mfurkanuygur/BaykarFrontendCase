@@ -4,35 +4,35 @@ import GooglePlay from "../assets/images/Google-Play.png"
 import World from "../assets/images/world.png"
 const Footer = () => {
     return (
-        <footer className="bg-secondary ">
-            <div className="container-lg py-5 d-flex flex-column justify-content-between align-items-md-stretch w-100 bg-danger">
-                <div className="row text-white">
-                    <div className="col-lg-3 flex flex-column justify-content-between bg-info">
-                        <ul className="p-0 ">
+        <footer className="bg-secondary pt-80 ">
+            <div className="container">
+                <div className="row text-white text-center text-lg-start gap-5 gap-lg-0">
+                    <div className="col-lg-3  ">
+                        <ul className="p-0 w-full d-flex flex-column justify-between gap-4">
                             <h6 className="">Products</h6>
                             {FooterLinks.products.map(item => (
-                                <li className="  " key={item}><a href="" className="cursor-pointer  ">{item}</a></li>
+                                <li className=" mt-1 " key={item}><a href="" className="cursor-pointer text-info-emphasis ">{item}</a></li>
                             ))}
                         </ul>
                     </div>
                     <div className="col-lg-3  ">
-                        <ul className="p-0">
+                        <ul className="p-0 w-full d-flex flex-column justify-between gap-4">
                             <h6 className="">Solutions</h6>
                             {FooterLinks.solutions.map(item => (
-                                <li className=" " key={item}><a href="" className="cursor-pointer ">{item}</a></li>
+                                <li className=" mt-1 " key={item}><a href="" className="cursor-pointer text-info-emphasis ">{item}</a></li>
                             ))}
                         </ul>
                     </div>
                     <div className="col-lg-3 ">
-                        <ul className="p-0">
+                        <ul className="p-0 w-full d-flex flex-column justify-between gap-4">
                             <h6 className="">Support</h6>
                             {FooterLinks.support.map(item => (
-                                <li className="" key={item}><a href="" className="cursor-pointer ">{item}</a></li>
+                                <li className=" mt-1" key={item}><a href="" className="cursor-pointer text-info-emphasis">{item}</a></li>
                             ))}
                         </ul>
                     </div>
                     <div className="col-lg-3 ">
-                        <div className=" ">
+                        <div className="w-full d-flex flex-column justify-between gap-5">
                             <div className=" ">
                                 <h6 className=""> Get the App</h6>
                                 <div className="">
@@ -40,11 +40,11 @@ const Footer = () => {
                                     <div className=""><img className="my-2" src={GooglePlay} alt="Google-Play-Store" /></div>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="w-full d-flex flex-column justify-between gap-3">
                                 <h6 className="">Follow Us</h6>
-                                <div className="">
+                                <div className="d-flex gap-3 justify-content-center justify-content-lg-start">
                                     {FooterLinks.followingLinks.map(item => (
-                                        <div className="cursor-pointer   " key={item}>
+                                        <div className="cursor-pointer text-info-emphasis" key={item}>
                                             <img src={item} alt="" />
                                         </div>
                                     ))}
@@ -54,16 +54,16 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="bg-info w-100">
+                <div className=" text-info-emphasis d-flex flex-column flex-lg-row text-center text-lg-start justify-content-between border-top border-light-subtle mt-3 pt-4" >
                     <p className=" ">Collers @ 2023. All rights reserved.</p>
-                    <ul className="p-0">
+                    <ul className="p-0 d-flex justify-content-center align-items-center gap-4">
                         {FooterLinks.footerBottomNav.map(item => (
                             <li key={item}>{item}</li>
-                            
+
                         ))}
-                        <li className=" ">
+                        <li className=" text-info-emphasis d-flex align-items-center gap-2 ">
                             <img src={World} alt="world" />
-                            <div className=""><p className="">EN</p></div>
+                            <p className="m-0">EN</p>
                         </li>
                     </ul>
                 </div>

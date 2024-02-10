@@ -15,7 +15,7 @@ const Section6 = () => {
                         Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.</p>
                 </div>
                 <div className="position-relative z-1 row d-flex justify-content-between   ">
-                    <div className='col-12 col-lg-3 p-0 m-0 '>
+                    <div className='col-12 col-lg-3 p-0 mx-3 '>
                         <ul className='d-none d-lg-flex flex-lg-column p-0 gap-3'>
                             {
                                 CollectionTabs.slice(0, 1).map(item => (

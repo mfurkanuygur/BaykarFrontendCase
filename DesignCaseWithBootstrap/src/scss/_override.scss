@@ -1,6 +1,8 @@
 $primary: #78350f;
 $secondary: #0f172a;
 $secondary-text-emphasis: #475569;
+$info-text-emphasis: #e2e8f0;
+
 $list-group-color: white;
 $list-group-bg: $secondary;
 $list-group-border-color: none;
@@ -40,6 +42,7 @@ $font-sizes: (
   //16
   56: 56px,
   72: 72px,
+  96: 96px,
 );
 $box-shadow-lg: 0 1rem 3rem rgba(white, 0.175);
 $box-shadow-sm: 0 0.125rem 0.25rem rgba(black, 0.175);

@@ -8,6 +8,7 @@ import Section3 from './components/Section3';
 import Section4 from './components/Section4';
 import Section5 from './components/Section5';
 import Section6 from './components/Section6';
+import Section7 from './components/Section7';
 import Footer from './components/Footer';
 import { useEffect, useState } from "react";
 
@@ -46,7 +47,8 @@ function App() {
           <img className='vw-100' src={bgWaves} alt="bgWaves" />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Section7 />
+      <Footer />
     </>
   )
 }
